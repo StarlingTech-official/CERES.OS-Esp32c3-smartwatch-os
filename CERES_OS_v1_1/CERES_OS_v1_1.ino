@@ -40,6 +40,7 @@ WiFiMulti wifiMulti;
 const char* AP_CONFIG_NAME = "CERES-Setup";   
 const char* ntpServer = "pool.ntp.org";
 const char* TZ_INFO   = "CET-1CEST,M3.5.0,M10.5.0/3";
+ String latitude = "**.****"; String longitude = "**.****"; // change to your location
 const unsigned long WIFI_RETRY_INTERVAL = 15000; 
 unsigned long lastWifiRetry = 0;
 bool wifiCredentialsExist = false;
@@ -1052,7 +1053,7 @@ void startWifiConfigPortal() { drawWifiConfigScreen(); WiFi.disconnect(true, tru
 void updateWeather() {
   lastWeatherUpdate = millis(); 
   if (WiFi.status() != WL_CONNECTED) return;
-  HTTPClient http; String latitude = "52.2297"; String longitude = "21.0122";
+  HTTPClient http;
   http.begin("http://ip-api.com/json/?fields=status,lat,lon");
   int httpCode = http.GET();
   if (httpCode == 200) {
