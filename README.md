@@ -31,6 +31,8 @@ ESP32-C3 microcontroller, 128x64 I2C OLED display (SH1106G), Active Buzzer, and 
 
 Circuit was made using https://app.cirkitdesigner.com 
 
+<img width="2048" height="944" alt="18694c96-e9a9-4412-9aeb-9ef871dc4e35" src="https://github.com/user-attachments/assets/1f439288-3aff-4867-a7bc-5eaca23c2067" />
+
 Core Libraries Required: Adafruit_SH110X, Adafruit_GFX, WiFiManager, ArduinoJson, Adafruit_NeoPixel, and LittleFS.  
 
 My Esp32c3 had build in rgb led that interfered with other functions, that's why I added libraries to turn it off
