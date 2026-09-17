@@ -13,6 +13,7 @@ CERES_OS is a custom-built, ultra-lightweight operating system tailored for ESP3
 ## Versions
 - v0.4.2 (stable) – 4 cards: Home, Watch tools, Weather, System → see Releases
 - v1.1 (current) – adds Motion pedometer (ADXL345) + fullscreen Starshooter
+  
 Following program was developed with Gemini AI assistance
 
 UI was designed using lopaka.app: https://lopaka.app/gallery 
@@ -40,6 +41,7 @@ My Esp32c3 had build in rgb led that interfered with other functions, that's why
 # Configuration and instalation: 
 Before flashing, set your default location coordinates (String latitude = "**.****"; String longitude = "**.****";) at the top of the main code file to fetch accurate weather data for your region.  
 Using Arduino IDE, change dev board options in tools to ones showed on image:
+
 <img width="360" height="315" alt="image" src="https://github.com/user-attachments/assets/f0e6edce-783b-4d21-9a0a-b784f35e2b11" />
 
 # WI-fi configurations 
