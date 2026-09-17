@@ -5,7 +5,7 @@
 // so feel free to edit and if You see some issues or bug, please let us know.
 // This program was created with help of AI. It is still developed, so some functions are not ready yet.
 // Circuit is available in Electonics folder.
-// boards manager: esp32 version: 1.0
+// boards manager: esp32 version: 1.1
 
 //LIBRARIES
 #include <WiFi.h>
@@ -47,7 +47,7 @@ float currentTemp = 0.0;
 int currentHum = 0;
 unsigned long lastWeatherUpdate = 0;
 const unsigned long WEATHER_UPDATE_INTERVAL = 30000;
-const char* Sys_ver = "CERES.OS V.1.0";
+const char* Sys_ver = "CERES.OS V.1.1";
 
 // =================== ACCELEROMETER (ADXL345, shared I2C SDA=6 SCL=7) ===================
 // Wiring: VCC->3V3, GND->GND, SDA->GPIO6, SCL->GPIO7 (same bus as OLED 0x3C).
