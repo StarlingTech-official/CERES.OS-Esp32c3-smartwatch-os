@@ -10,8 +10,11 @@ CERES_OS is a custom-built, ultra-lightweight operating system tailored for ESP3
  - Automatic Time & Weather Sync: Fetches real-time time via NTP and accurate local weather metrics using non-blocking HTTP requests.
  - Power Management: Integrated ESP32 deep sleep support with quick wake-up handling and dynamic display time-outs.
  - Wi-Fi Manager: Easy setup portal for connecting to local Wi-Fi networks without hardcoding credentials.
-
+## Versions
+- v0.4.2 (stable) – 4 cards: Home, Watch tools, Weather, System → see Releases
+- v1.1 (current) – adds Motion pedometer (ADXL345) + fullscreen Starshooter
 Following program was developed with Gemini AI assistance
+
 UI was designed using lopaka.app: https://lopaka.app/gallery 
 
 # Hardware Support: 
