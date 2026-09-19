@@ -5,6 +5,8 @@ Small operating system for diy smartwatches based on esp32c3 and others
 
 CERES_OS is a custom-built, ultra-lightweight operating system tailored for ESP32-C3 smartwatches equipped with an OLED display. Built around a clean, multi-card user interface, CERES_OS delivers essential wearable functionality with minimal overhead.  
 
+Project showcase: https://www.youtube.com/watch?v=hMR1RxLZnJg 
+
 # Key Features:
  - Card-Based UI Navigation: Seamlessly cycle between the Home Screen, Watch Tools (Alarm, Countdown Timer, Stopwatch), Weather Dashboard, and System Status.
  - Automatic Time & Weather Sync: Fetches real-time time via NTP and accurate local weather metrics using non-blocking HTTP requests.
